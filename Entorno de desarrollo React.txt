@@ -1,0 +1,7 @@
+--- Extensión Visual Studio Code
+ES7+ React/Redux/React-Native snippets - dsznajder
+
+--- Extensión Navegador
+React Developer Tools
+
+Node.js

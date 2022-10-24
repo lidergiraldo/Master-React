@@ -1,0 +1,2 @@
+--- Crear Proyecto de React
+npx create-react-app nombre-proyecto
