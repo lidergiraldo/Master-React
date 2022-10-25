@@ -25,12 +25,6 @@ function MiComponente() {
             <li><strong>{equipos.e1}</strong></li>
             <li><strong>{equipos.e2}</strong></li>
         </ul>
-        <p>Este es mi primer componente</p>
-        <ul>
-            <li>React</li>
-            <li>Angular</li>
-            <li>Vue</li>
-        </ul>
 
         {/* <></> - <fragment><fragment/>*/}
     </div>

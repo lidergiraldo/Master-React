@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MiComponente from './MiComponente';
+import { SegundoComponente } from './SegundoComponente';
 
 function App() {
   return (
@@ -11,7 +12,11 @@ function App() {
           Master in React
         </p>
         {/*Cargar mi primer componente*/}
-        <MiComponente/>
+        <div className='componentes'>
+          <MiComponente/>
+          <hr/>
+          <SegundoComponente/>
+        </div>
       </header>
     </div>
   );
