@@ -20,3 +20,8 @@ TercerComponente.propTypes = {
     apellido: PropTypes.string.isRequired,
     ficha: PropTypes.object
 }
+
+TercerComponente.defaultProps = {
+    nombre: 'Cristina',
+    apellido: 'Escobar'
+}
