@@ -3,6 +3,7 @@ import './App.css';
 import MiComponente from './MiComponente';
 import { SegundoComponente } from './SegundoComponente';
 import { TercerComponente } from './TercerComponente';
+import { EventosComponente } from './EventosComponente';
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
             apellido = 'Rodriguez'
             ficha = {ficha_medica}
           />
+          <hr/>
+          <EventosComponente/> 
         </div>
       </header>
     </div>
