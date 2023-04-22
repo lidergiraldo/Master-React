@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MiComponente from './MyComponente';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+
+        {/* Cargar mi primer componente */}
+        <MiComponente/>
+
       </header>
     </div>
   );
