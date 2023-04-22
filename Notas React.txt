@@ -1,2 +1,5 @@
 Crear aplicación React
 	npx create-react-app my-app
+
+Snippet para agregar codigo de componente
+	rafc

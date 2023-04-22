@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import MiComponente from './MyComponente';
+import MiComponente  from './MyComponente';
+import { SegundoComponente } from './SegundoComponente';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
 
         {/* Cargar mi primer componente */}
         <MiComponente/>
+        <hr/>
+        <SegundoComponente/>
 
       </header>
     </div>
