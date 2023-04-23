@@ -35,8 +35,8 @@ function App() {
         <SegundoComponente/>
         <hr/>
         <TercerComponente 
-          /* nombre="Liderman" */ 
-          apellido="Giraldo"
+          nombre="Karina" 
+          apellido="Rodriguez"
           ficha= { ficha_medica }
         />
 
