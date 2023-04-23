@@ -14,6 +14,14 @@ export const EventosComponente = () => {
         alert(`Haz ${accion} a la caja`);
     };
 
+    const estasDentro = e => {
+        console.log('Estas dentro del input, escribe tu nombre');
+    }
+    
+    const estasFuera = e => {
+        console.log('Estas fuera del input, escribe tu nombre');
+    } 
+
     return (
         <div>
             <h1>Eventos en React</h1>
@@ -29,6 +37,13 @@ export const EventosComponente = () => {
                            onMouseLeave={e => handleHazEntrado(e, 'salido') }>
                 Pasa por encima
             </div>
+
+            {/* Eventos onFocus y onBlur */}
+            <p>
+                <input type="text" onFocus={ estasDentro }
+                                   onBlur={ estasFuera }
+                                   placeholder='Introduce tu nombre'/>
+            </p>
 
 
         </div>
