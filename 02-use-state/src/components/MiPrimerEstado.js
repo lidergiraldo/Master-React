@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react';
 
 export const MiPrimerEstado = () => {
 
-    let nombre = 'Liderman';
+    //Problematica a solucionar
+    /* let nombre = 'Liderman';
 
     const cambiarNombre = e =>{
         nombre = 'Karina';
+    }; */
+
+    const [nombre, setNombre] = useState('Karina');
+
+    const cambiarNombre = () => {
+        setNombre('Liderman');
     };
 
     return (
